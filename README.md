@@ -1,5 +1,7 @@
 # WACM 2020 Code repo
 
+<img src="https://codemakers.io/wp-content/uploads/2019/06/logo-new-dark-295px.png">
+
 THis is a place for me to store all of my files and projects that I have used at the WA Code Makers Club at ECU
 
 ## Getting Started
@@ -36,7 +38,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
+* CodeMakers.io for letitng me borrow their logo at the top of this README
 * Inspiration
 * etc
 
