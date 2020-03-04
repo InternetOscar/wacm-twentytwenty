@@ -5,7 +5,7 @@ import json
 print(key)
 
 # link that we are calling for our API program
-link = 'https://api.openweathermap.org/data/2.5/weather?q=Joondalup,au&appid='
+link = 'https://api.openweathermap.org/data/2.5/weather?q=Joondalup,au&units=metric&appid='
 
 # open the link
 wget = urlopen(link + key)
@@ -15,3 +15,4 @@ webtext = wget.read()
 
 # decode text and output
 print(webtext.decode('utf-8'))
+
