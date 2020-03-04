@@ -40,3 +40,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Inspiration
 * etc
 
+<p align="center">
+  ¯\_(ツ)_/¯ it works on my machine
+</p>
