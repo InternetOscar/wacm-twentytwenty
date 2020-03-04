@@ -4,24 +4,14 @@ import json
 
 print(key)
 
-# #read JSON file
-# with open('keys.json', 'r') as myfile:
-#     data=myfile.read()
+# link that we are calling for our API program
+link = 'https://api.openweathermap.org/data/2.5/weather?q=Joondalup,au&appid='
 
-# # parse zee file
-# obj = json.loads(data)
+# open the link
+wget = urlopen(link + key)
 
-# #load the values
-# print("key: " + str(obj['key']))
+# read the info (to ram?)
+webtext = wget.read()
 
-# # link that we are calling for our API program
-# link = 'http://wttr.in/Perth?format=3'
-
-# # open the link
-# wget = urlopen(link)
-
-# # read the info (to ram?)
-# webtext = wget.read()
-
-# # decode text and output
-# print(webtext.decode('utf-8'))
+# decode text and output
+print(webtext.decode('utf-8'))
