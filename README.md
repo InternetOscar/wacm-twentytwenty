@@ -1,6 +1,4 @@
-# WACM 2020 Code repo
-
-<img src="https://codemakers.io/wp-content/uploads/2019/06/logo-new-dark-295px.png">
+# <img src="https://codemakers.io/wp-content/uploads/2019/06/logo-new-dark-295px.png"> WACM 2020 Code repo 
 
 THis is a place for me to store all of my files and projects that I have used at the WA Code Makers Club at ECU
 
