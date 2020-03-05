@@ -41,7 +41,7 @@ current_temp = get_current_temp()
 
 if current_temp is not None:
     print("Here's the current temp: ")
-    for k, v in main ['temp'].items():
+    for k, v in 'coord'.lon():
         print('{0}:{1}'.format(k, v))
 
 else:
