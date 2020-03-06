@@ -44,6 +44,8 @@ if current_temp is not None:
     for k, v in 'coord'.lon():
         print('{0}:{1}'.format(k, v))
 
+dict = json.loads(current_temp)
+
 else:
     print('[!] Request Failed')
 # print(data)
